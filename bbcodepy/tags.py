@@ -267,6 +267,7 @@ BUILTIN_TAGS = {
     'u': create_simple_tag('u'),
     's': create_simple_tag('strike'),
     'h1': create_simple_tag('h1', STRIP_OUTER=True),
+    'title': create_simple_tag('h1', STRIP_OUTER=True),
     'h2': create_simple_tag('h2', STRIP_OUTER=True),
     'h3': create_simple_tag('h3', STRIP_OUTER=True),
     'h4': create_simple_tag('h4', STRIP_OUTER=True),
