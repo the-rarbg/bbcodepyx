@@ -15,7 +15,7 @@ CLASSIFIERS = [
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
-setup(name='bbcodepy',
+setup(name='bbcodepyx',
     version=VERSION,
     packages=find_packages(),
     author='Stanislav Vishnevskiy',
